@@ -1,0 +1,132 @@
+.flexbox-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox-items{
+        width: 200px;
+        margin: 10px;
+        border: 3px solid #333;
+        background-color: white;
+        min-height: 500px;
+}
+
+.flexbox-items-1 {
+    min-height: 300px;
+
+
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+
+}
+.card-01{
+    background: #dd4431;
+    position: relative;
+    flex: 1;
+    
+}
+
+.card-02{
+    background: #7499CB;
+    position: relative;
+    flex: 1;
+}
+
+.card-03{
+    background:  #F7BB29;
+    position: relative;
+    flex: 1;
+}
+.card-04{
+    background:  #009E53;
+    position: relative;
+    flex: 1;
+
+}
+.card-05{
+    background:  #6993C6;
+    position: relative;
+    flex: 1;
+
+}
+.card-06{
+    background:  #F6B218;
+    position: relative;
+    flex: 1;
+
+}
+.card-07{
+    background:  #019E5B;
+    position: relative;
+    flex: 1;
+
+}
+.card-08{
+    background:  #CF6350;
+    position: relative;
+    flex: 1;
+
+}
+.card-09{
+    background:  #F7B219;
+    position: relative;
+    flex: 1;
+
+}
+
+
+.box-search{
+    background-color: white;
+    
+}
+.exact-text{
+    text-decoration: underline;
+}
+.exact-text1{
+    text-decoration: underline;
+    float: right;
+
+
+}
+.exact-text2{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+.grid-container > div {
+    background-color: rgba(38, 48, 136, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .grid-container {
+    display: grid;
+    height: 100px;
+
+    width: 100%;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
